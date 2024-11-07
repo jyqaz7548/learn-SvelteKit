@@ -1,9 +1,9 @@
 <script>
     import {page} from '$app/stores';
-    console.log($page.params.slug)
-
+    
     const slugArr = $page.params.slug.split('/');
-    console.log(slugArr);
+    
+    console.log($page.params)
 </script>
 
 <h1>Docs 페이지</h1>
