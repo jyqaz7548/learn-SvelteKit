@@ -1,2 +1,5 @@
-<h1>Hello world!</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>welcome home</h1>
+
+<a href="/about">About</a>
+<a href="/profile">Profile</a>
+
