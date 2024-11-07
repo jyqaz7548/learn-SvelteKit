@@ -1,7 +1,16 @@
+<script>
+    export let productId = 100;
+</script>
+
+
+<a href="/">Home</a>
+
+
 <h1>제품 리스트 페이지</h1>
 
-<al>
-    <li>제품1</li>
-    <li>제품2</li>
-    <li>제품3</li>
-</al>
+<ul>
+    <a href="/products/1"><li>제품1</li></a>
+    <a href="/products/2"><li>제품2</li></a>
+    <a href="/products/3"><li>제품3</li></a>
+    <a href={`/products/${productId}`}><li>제품 {productId}</li></a>
+</ul>

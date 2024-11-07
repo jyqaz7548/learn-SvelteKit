@@ -4,7 +4,7 @@
     const slugArr = $page.params.slug.split('/');
     
     console.log($page.params)
-    const {lang } = $page.params
+    const {lang = 'ko'} = $page.params
 
 </script>
 
@@ -15,13 +15,15 @@
     <h1>hello</h1>
 
 {:else if lang ==='jp'}
-    <h1>곤니찌와</h1>
+    <h1>おはよう </h1>
 {/if}
+
+<hr/>
 
 <h1>Docs 페이지</h1>
 
 {#if slugArr.length === 1}
 <h1>Docs 페이지; 주제 {slugArr[0]}</h1>
 {:else if slugArr.length === 2}
-<h1>Docs 페이지; {slugArr[0]} ; 소주제 {slugArr[1]}</h1>
+<h1>Docs 페이지; 주제; {slugArr[0]} ; 소주제 {slugArr[1]}</h1>
 {/if}
