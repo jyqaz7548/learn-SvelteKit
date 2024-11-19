@@ -2,4 +2,4 @@
 <label for="">아이디</label>
 <input type="text">
 <label for="">비밀번호</label>
-<input type="text">
+<input type="text"> 
